@@ -11,7 +11,6 @@ This project requires Python 3.x and the following Python libraries installed:
 - [matplotlib](https://matplotlib.org/)
 - [scikit-learn](https://scikit-learn.org/stable/)
 - [scipy](https://www.scipy.org/)
-- [eli5](https://pypi.org/project/eli5/)
 
 I also reccommend to install Anaconda, a pre-packaged Python distribution that contains all of the necessary libraries and software for this project which also include jupyter notebook to run and execute [IPython Notebook](http://ipython.org/notebook.html).
 
@@ -19,10 +18,10 @@ I also reccommend to install Anaconda, a pre-packaged Python distribution that c
 
 In a terminal or command window, navigate to the top-level project repo house-sale-price-prediction-of-king-county-USA/ (that contains this README) and run one of the following commands:
 
-ipython notebook housing_sales.ipynb
+ipython notebook house_county.ipynb
 or
 
-jupyter notebook housing_sales.ipynb
+jupyter notebook house_county.ipynb
 This will open the iPython Notebook software and project file in your browser.
 
 ## Data :
@@ -55,3 +54,10 @@ The description for the 20 features is given below: <br>
 
 ## Target Variable :
 **price**:- It is the price of house which we have to predict and  this is our target variable. <br>
+
+## Model Evaluation :
+I have done model evaluation based on following sklearn metric.
+- [R2 Score] (http://statisticsbyjim.com/regression/interpret-r-squared-regression/)
+- [Explained Variance Score] (https://en.wikipedia.org/wiki/Explained_variation)
+- [Mean Squared Error] (https://www.statisticshowto.datasciencecentral.com/mean-squared-error/)
+- Model score
