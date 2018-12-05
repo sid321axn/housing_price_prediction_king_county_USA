@@ -18,10 +18,11 @@ I also reccommend to install Anaconda, a pre-packaged Python distribution that c
 
 In a terminal or command window, navigate to the top-level project repo house-sale-price-prediction-of-king-county-USA/ (that contains this README) and run one of the following commands:
 
-ipython notebook house_county.ipynb
+```ipython notebook house_county.ipynb```
 or
 
-jupyter notebook house_county.ipynb
+```jupyter notebook house_county.ipynb```
+
 This will open the iPython Notebook software and project file in your browser.
 
 ## Data :
